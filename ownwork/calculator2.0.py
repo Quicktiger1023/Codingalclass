@@ -7,7 +7,7 @@ print("Subtraction (-)")
 print("Multiplication (*)")
 print("Division (/)")
 
-op = input("Enter choice (addition, subtraction, multiplication, division,root or +, -, *, /,**):    ")
+op = input("Enter choice (addition, subtraction, multiplication, division, or +, -, *, /):    ")
 
 if op in ("addition","+"):
     a= x+y
@@ -34,11 +34,11 @@ z=int(input("enter a number"))
 print("square (**)")
 print("percentage(/100)")
 
-single=input("Enter choice: (square,percentage or **,/100)")
+single=input("Enter choice: (square,percentage or **,%)")
 
 if single in ("square","**"):
     e = z*z
     print("result:  ", e)
-elif single in ("percentage","/100"):
+elif single in ("percentage","%"):
     f = z / 100
     print("result:  ", f)
