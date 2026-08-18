@@ -4,7 +4,7 @@ window = turtle.Screen()
 pen = turtle.Turtle()
 
 
-for _ in range(4):
+for window in range(4):
     pen.forward(170)
     pen.right(90)
 
